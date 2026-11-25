@@ -1,0 +1,23 @@
+// ============================================================
+// CHARACTERS IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     movie_id:
+//         null,
+//     character_name:
+//         '',
+//     character_real_name:
+//         '',
+//     character_relationship_with_lead_actor:
+//         '',
+//     characteristics:
+//         '',
+//     role_in_movie:
+//         '',
+//     notes:
+//         '',
+// },

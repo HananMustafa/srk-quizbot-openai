@@ -1,0 +1,19 @@
+// ============================================================
+// AWARDS IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     title:
+//         '',
+//     company:
+//         '',
+//     category:
+//         '',
+//     receiving_date:
+//         '',
+//     movie_id:
+//         null,
+// },

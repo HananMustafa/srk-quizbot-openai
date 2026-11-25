@@ -1,0 +1,29 @@
+// ============================================================
+// SONGS IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     movie_id:
+//         null,
+//     title:
+//         '',
+//     singer:
+//         '',
+//     screen_female:
+//         '',
+//     screen_male:
+//         '',
+//     views_on_youtube:
+//         null,
+//     likes_on_youtube:
+//         null,
+//     release_date:
+//         '',
+//     complete_lyrics:
+//         '',
+//     notes:
+//         '',
+// },

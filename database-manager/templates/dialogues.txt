@@ -1,0 +1,15 @@
+// ============================================================
+// DIALOGUES IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     dialogue:
+//         '',
+//     movie_id:
+//         null,
+//     television_id:
+//         null,
+// },

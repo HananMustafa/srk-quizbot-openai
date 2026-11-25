@@ -1,0 +1,41 @@
+// ============================================================
+// MOVIES IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     title:
+//         '',
+//     release_date:
+//         '',
+//     Srk_character_name:
+//         '',
+//     lead_actor:
+//         '',
+//     lead_actress:
+//         '',
+//     villain:
+//         '',
+//     storyline:
+//         '',
+//     lead_actor_characteristics:
+//         '',
+//     genre:
+//         '',
+//     director:
+//         '',
+//     producer:
+//         '',
+//     writer:
+//         '',
+//     plot_summary:
+//         '',
+//     visual_clues:
+//         '',
+//     notes:
+//         '',
+//     cast:
+//         '',
+// },

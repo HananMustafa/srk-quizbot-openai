@@ -1,0 +1,128 @@
+============================================================
+SRK DATABASE STRUCTURE
+============================================================
+
+Table name: awards
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  title (TEXT) [NOT NULL]
+  company (TEXT)
+  category (TEXT)
+  receiving_date (TEXT)
+  movie_id (INTEGER)
+Relations:
+  movie_id → movies.id
+
+------------------------------------------------------------
+
+Table name: characters
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  movie_id (INTEGER)
+  character_name (TEXT) [NOT NULL]
+  character_real_name (TEXT)
+  character_relationship_with_lead_actor (TEXT)
+  characteristics (TEXT)
+  role_in_movie (TEXT)
+  notes (TEXT)
+Relations:
+  movie_id → movies.id
+
+------------------------------------------------------------
+
+Table name: dialogues
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  dialogue (TEXT) [NOT NULL]
+  movie_id (INTEGER)
+  television_id (INTEGER)
+Relations:
+  television_id → television.id
+  movie_id → movies.id
+
+------------------------------------------------------------
+
+Table name: hidden_facts
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  movie_id (INTEGER)
+  fact_details (TEXT) [NOT NULL]
+Relations:
+  movie_id → movies.id
+
+------------------------------------------------------------
+
+Table name: movies
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  title (TEXT) [NOT NULL]
+  release_date (TEXT)
+  Srk_character_name (TEXT)
+  lead_actor (TEXT)
+  lead_actress (TEXT)
+  cast (TEXT)
+  villain (TEXT)
+  storyline (TEXT)
+  lead_actor_characteristics (TEXT)
+  genre (TEXT)
+  director (TEXT)
+  producer (TEXT)
+  writer (TEXT)
+  plot_summary (TEXT)
+  visual_clues (TEXT)
+  notes (TEXT)
+
+------------------------------------------------------------
+
+Table name: qna
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  question (TEXT) [NOT NULL]
+  correct_answer (TEXT) [NOT NULL]
+
+------------------------------------------------------------
+
+Table name: songs
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  movie_id (INTEGER)
+  title (TEXT) [NOT NULL]
+  singer (TEXT)
+  screen_female (TEXT)
+  screen_male (TEXT)
+  views_on_youtube (INTEGER)
+  likes_on_youtube (INTEGER)
+  release_date (TEXT)
+  complete_lyrics (TEXT)
+  notes (TEXT)
+Relations:
+  movie_id → movies.id
+
+------------------------------------------------------------
+
+Table name: srk_bio
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  key (TEXT) [NOT NULL]
+  pair (TEXT)
+
+------------------------------------------------------------
+
+Table name: television
+Fields:
+  id (INTEGER) [PRIMARY KEY]
+  title (TEXT) [NOT NULL]
+  release_date (TEXT)
+  srk_character_name (TEXT)
+  lead_actor (TEXT)
+  lead_actress (TEXT)
+  storyline (TEXT)
+  episodes (INTEGER)
+  genre (TEXT)
+  director (TEXT)
+  producer (TEXT)
+  plot_summary (TEXT)
+  visual_clues (TEXT)
+  notes (TEXT)
+
+------------------------------------------------------------

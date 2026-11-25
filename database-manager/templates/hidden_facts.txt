@@ -1,0 +1,13 @@
+// ============================================================
+// HIDDEN_FACTS IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     movie_id:
+//         null,
+//     fact_details:
+//         '',
+// },

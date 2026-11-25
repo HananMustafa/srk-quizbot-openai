@@ -1,0 +1,13 @@
+// ============================================================
+// QNA IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     question:
+//         '',
+//     correct_answer:
+//         '',
+// },

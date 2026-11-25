@@ -1,0 +1,35 @@
+// ============================================================
+// TELEVISION IMPORT TEMPLATE
+// Add one or more records below.
+// Do NOT add the id field. SQLite generates it automatically.
+// ============================================================
+
+// Example:
+// {
+//     title:
+//         '',
+//     release_date:
+//         '',
+//     srk_character_name:
+//         '',
+//     lead_actor:
+//         '',
+//     lead_actress:
+//         '',
+//     storyline:
+//         '',
+//     episodes:
+//         null,
+//     genre:
+//         '',
+//     director:
+//         '',
+//     producer:
+//         '',
+//     plot_summary:
+//         '',
+//     visual_clues:
+//         '',
+//     notes:
+//         '',
+// },
